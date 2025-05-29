@@ -29,9 +29,15 @@ public class Person : MonoBehaviour
             }
         }
     }
+
+    public virtual void ShowStats()
+    {
+        Debug.Log($"Your name is: {userName}");
+    }
+    
     void Start()
     {
-        
+        ShowStats();
     }
 
     // Update is called once per frame
