@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class CharacterController : MonoBehaviour
 {
     [SerializeField] private Rigidbody rigidbody;
 
